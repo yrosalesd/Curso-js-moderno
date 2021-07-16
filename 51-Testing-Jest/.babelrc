@@ -1,0 +1,12 @@
+//targets que versiones vamos a soportar , permite habilitarle imports aun proyecto de node 
+{
+    "presets": [
+        [
+            "@babel/preset-env", {
+                "targets":{
+                    "node":"current"
+                }
+            }
+        ]
+    ]
+}
